@@ -1,0 +1,39 @@
+{
+  "name": "customerror",
+  "version": "1.0.0",
+  "description": "Custom error for node.js",
+  "keywords": [
+    "custom",
+    "error",
+    "class"
+  ],
+  "main": "src/CustomError.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dimitris Michalakos",
+    "email": "dimitris@jmike.gr",
+    "url": "https://github.com/jmike"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmike/customerror.git"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "type-of": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "^2.3.2",
+    "chai": "^3.2.0",
+    "rimraf": "^2.4.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "mkdirp": "^0.5.1"
+  }
+}
