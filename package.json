@@ -5,11 +5,13 @@
   "keywords": [
     "custom",
     "error",
-    "class"
+    "inherit"
   ],
-  "main": "src/CustomError.js",
+  "main": "dist/CustomError.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js",
+    "build": "gulp build",
+    "prepublish": "npm run build"
   },
   "author": {
     "name": "Dimitris Michalakos",
