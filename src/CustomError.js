@@ -15,7 +15,12 @@ class CustomError extends Error {
       throw new Error(`Invalid err argument; expected string or error, received ${type(err)}`);
     }
 
-    this.name = name;
+    if (_.isString(name)) {
+      this.name = name;
+    } else {
+      throw new Error(`Invalid name argument; expected string, received ${type(err)}`);
+    }
+
     this.time = new Date();
   }
 
