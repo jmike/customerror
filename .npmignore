@@ -1,4 +1,6 @@
 .git*
 .eslintrc
+gulpfile.js
+CHANGELOG.md
 src/
 test/
